@@ -25,7 +25,7 @@ h2 {
 .clock {
   width: 400px;
   height: 400px;
-  /* neumorphic boxshadow */
+  /* neumorphic box-shadow */
     background: linear-gradient(145deg, #474d83, #555c9c);
     box-shadow: 20px 20px 60px #43497c,
       -20px -20px 60px #5b63a8;
@@ -34,7 +34,7 @@ h2 {
     border-radius: 50%;
     border: 5px solid black;
 
-  /* position realtive to allow us to postion absoulte the numbers & hands */
+  /* position relative to allow us to position absolute the numbers & hands */
     position: relative;
 }
 
@@ -77,7 +77,7 @@ h2 {
   /* top left and right to only round the top */
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
-  /* Transform origin to state where to start the roation from - default is center of div */
+  /* Transform origin to state where to start the rotation from - default is center of div */
     transform-origin: bottom;
   /* Z-index to always be on top of the number */
     z-index: 10;
